@@ -1,0 +1,58 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+  string input;
+
+cout << "Please enter a string: ";
+cin >> input;
+
+if (input == string(input.rbegin(), input.rend())) {
+    cout  << " Yes";
+}
+else{
+  cout<<"No";
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZAD 2
+#include <iostream>
+using namespace std;
+int main()
+{
+int num;
+cout << "Nomer na fotbolista (11-99):";
+cin >> num;
+if (num == 11 or num == 21 or num == 31 or num == 41 or num == 51 or num == 61 or num == 71 or num == 81 or num == 91)
+{
+cout << "Goalkeeper" << endl;
+}
+if (num == 12 or num == 22 or num == 32 or num == 42 or num == 52 or num == 62 or num == 72 or num == 82 or num == 92 or num== 13 or num == 23 or num == 33 or num == 43 or num == 53 or num == 63 or num == 73 or num == 83 or num == 93 or num== 14 or num == 24 or num == 34 or num == 44 or num == 54 or num == 64 or num == 74 or num == 84 or num == 94)
+{
+cout << "Defender" << endl;
+}
+if (num == 52 or num == 25 or num == 35 or num == 45 or num == 55 or num == 65 or num == 75 or num == 85 or num == 95 or num == 16 or num == 26 or num == 36 or num == 46 or num == 56 or num == 66 or num == 76 or num == 86 or num == 96 or num == 17 or num == 27 or num == 37 or num == 47 or num == 57 or num == 67 or num == 77 or num == 87 or num == 97 or num==18 or num==28 or num==38 or num==48 or num==58 or num==68 or num==78 or num==88 or num==98)
+{
+cout << "Midfielder" << endl;
+}
+if (num == 29 or num == 39 or num == 49 or num == 59 or num == 69 or num == 79 or num == 79 or num == 99)
+{
+cout << "Forward" << endl;
+}
+if (num < 11 or num >99) {
+cout << "Incorrect number." << endl;
+}
+}
